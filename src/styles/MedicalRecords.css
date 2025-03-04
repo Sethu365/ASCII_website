@@ -1,0 +1,128 @@
+.medical-records-container {
+  font-family: "Poppins", sans-serif;
+  background: #fef8f2;
+  min-height: 100vh;
+  padding-bottom: 30px;
+  margin-top: 60px; 
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+}
+
+.pet-image {
+  width: 1100px;
+  height: 500px;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.pet-info {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px); 
+  -webkit-backdrop-filter: blur(15px);
+  padding: 12px 24px; 
+  border-radius: 12px; 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: auto; 
+  max-width: 80%; 
+}
+
+.pet-info h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+.pet-info p {
+  margin: 5px 0 0;
+  color: #e1dede; 
+  font-size: 1rem;
+}
+
+
+.tab-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+
+.tab-menu span {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.tab-menu .active {
+  background: #ff7b54;
+  color: white;
+}
+
+.records-section {
+  background: white;
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.records-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.record-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.record-item .icon {
+  color: #ff7b54;
+  font-size: 1.5rem;
+}
+
+.record-item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.record-item p {
+  margin: 0;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.add-reminder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #ff7b54;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.plus-icon {
+  font-size: 1.2rem;
+}
